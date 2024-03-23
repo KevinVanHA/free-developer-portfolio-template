@@ -57,7 +57,7 @@ const Hero = () => {
                             fontWeight: '600'
                         }}>
                       
-                        The place where your business expands
+                        Meet injoi,  <br />a digital <br /> hologram girl 
                         </Typography>
                         <Typography
                             variant='h2'
@@ -72,7 +72,7 @@ const Hero = () => {
                             maxWidth: '570px',
                             fontWeight: '300'
                         }}>
-                           Hey there! Call me Vito Medlej. I enjoy creating kickass websites and web/mobile apps, ones that suit your desires and needs using latest technologies and cleanest design patterns. 
+                           born from the depths of cyberspace, where pixels dance with the rhythm of imagination and dreams take flight in the realm of virtual reality. With her ethereal beauty and enigmatic charm, injoi emerges as a beacon of light in a world shrouded in darkness. 
                         </Typography>
 
                         <Box
