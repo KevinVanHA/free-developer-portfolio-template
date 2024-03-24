@@ -2,6 +2,7 @@ import {Box} from '@mui/material'
 import CustomLink from '../Mui/CustomLink'
 import {useRouter} from 'next/router';
 import gsap from 'gsap';
+import injoilogo from '/assets/injoilogo.png'
 
 const Logo = ({toggleDrawer, colorMode, color} : any) => {
     const router = useRouter()
@@ -26,12 +27,12 @@ const Logo = ({toggleDrawer, colorMode, color} : any) => {
         }}>
 
             <img
-                className={`${colorMode.mode === 'dark'
+                className={`${colorMode.mode === ''
                 ? 'logoImg '
                 : ''}small`}
-                src="https://res.cloudinary.com/dwcu3wcol/image/upload/v1658929513/log-removebg-preview_fygpsd.png"
+                src="/assets/injoilogo.png"
                 alt=""/>
-            <CustomLink color={color} fontWeight='600' text='Medlej' href='/'/>
+            <CustomLink color={color} fontWeight='600' text=' ' href='/'/>
         </Box>
     )
 }

@@ -4,6 +4,7 @@ import {useRef, useEffect} from 'react';
 import ScrollToPlugin from "gsap/dist/ScrollToPlugin";
 import HeroSectionAnimation from '../../../gsap/HeroSectionAnimation';
 import Image from 'next/image'
+import injoi from '../../../../public/assets/injoi.gif'
 
 export const btnStyles = {
     padding: '.77em 1.5em',
@@ -83,7 +84,8 @@ const Hero = () => {
                             flexWrap: 'wrap',
                             alignItems: 'center'
                         }}>
-
+                    <a href={`https://discord.com/channels/1131625905601650719/1220060290335379516/1221344390354571324`} rel="noreferrer" target='_blank' ></a>
+                            
                             <Button
                                 className="  b1 explore offset "
                                 sx={{
@@ -92,13 +94,10 @@ const Hero = () => {
                                 padding : '.75em 2.5em',
                                 flex:{xs:1,sm:'inherit'},
                             }}
-                                onClick={() => gsap.to(window, {
-                                duration: 2,
-                                scrollTo: `#ProjectSection`
-                            })}>
-                                View Projects
+                              >
+                                Visit our Discord
                             </Button>
-                        <a href={`https://drive.google.com/drive/u/0/my-drive`} rel="noreferrer" target='_blank' >
+                        <a href={`https://opensea.io/`} rel="noreferrer" target='_blank' >
 
                             <Button
                                 className='b2'
@@ -115,7 +114,7 @@ const Hero = () => {
                                 variant='text'>
                                 
                                 <Typography fontSize='14px'>
-                                    View Resume
+                                    View Opensea
                                 </Typography>
                             </Button>
                             </a>
@@ -178,8 +177,8 @@ const Hero = () => {
                                 zIndex: '2'
                             }}
                                 className='img1'
-                                src={`https://ucarecdn.com/150b60a1-4ef3-4ec8-8f1a-d90a7ea26c85/-/crop/1129x1256/0,194/-/preview/3000x3000/`}
-                                alt="Personal Image"/>
+                                src={`/assets/injoi.gif`}
+                                alt="injoy gif"/>
                             <Box
                                 className='gradientBg'
                                 sx={{
@@ -221,7 +220,7 @@ const Hero = () => {
                                     fontSize: '.85em',
                                     padding: '1em'
                                 }}>
-{`"Many ideas grow better when transplanted into another mind than the one where they sprang up."
+{`"A free NFT mint, a digital muse, and a gateway to rewards."
 
 – Oliver Wendell Holmes`}
                                 </Typography>

@@ -64,25 +64,10 @@ const Navbar = ({toggleDrawer,navbarSx} : INavbar) => {
                 onClick={()=>router.push('/blog')}
                 sx={{mr:'1em',fontWeight:'500',':hover':{color:'#0092ff'},color:color}}>
                     {/* <Typography> */}
-                    Blog
+                    MINT
                     {/* </Typography> */}
                 </Button>
-                <IconButton
-                    sx={{
-                    color,
-                    ':hover': {
-                        color
-                    },
-                    ":focus": {
-                        color
-                    }
-                }}
-                    onClick={() => toggleDrawer()}
-                    size="large"
-                    edge="start"
-                    aria-label="menu">
-                    <MenuIcon/>
-                </IconButton>
+                
 
             </Container>
         </AppBar>
