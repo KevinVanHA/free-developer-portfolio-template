@@ -1,4 +1,4 @@
-import { Container, Box, Grid } from '@mui/material';
+import { Container, Box, Grid, Button } from '@mui/material';
 import Image from 'next/image';
 import Typography from '@mui/material/Typography';
 import { ColorModeContext } from '../../../../pages/_app';
@@ -7,7 +7,6 @@ import { useContext } from 'react';
 const Sponsors = () => {
     return (
         <>
-            
             <Container
                 id='second-section'
                 maxWidth='lg'
@@ -16,47 +15,35 @@ const Sponsors = () => {
                     py: '6em',
                 }}
             >
-                <Typography variant="h2" align="center" gutterBottom sx={{ mb: '1.5em'}}>
-                    My Creators
+                <Typography variant="h3" align="center" gutterBottom sx={{ mb: '1.5em'}}>
+                    EAC
                 </Typography>
                 <Grid
                     container
-                    justifyContent='center' // Center the logos horizontally
-                    alignItems='center' // Center the images vertically within their grid items
-                    sx={{
-                        
-                    }}
+                    direction="column"
+                    alignItems="center"
+                    justifyContent="center"
                 >
-                    {/* Add your grid items for the second section */}
-                    {/* Example for 3 logos */}
-                    <Grid item xs={12} sm={12} md={4} lg={4}>
-                        {/* Logo 1 */}
-                        
+                    {/* Logo */}
+                    <Grid item>
                         <Image
-                            alt='EAC Logo'
+                            alt='Your Logo'
                             src='/assets/EACLogo.png'
                             width={200}
                             height={225}
                         />
                     </Grid>
-                    <Grid item xs={12} sm={12} md={4} lg={4}>
-                        {/* Logo 2 */}
-                            <Image
-                            alt='DarkKevinLogo'
-                            src='/assets/DKLogo.png'
-                            width={200}
-                            height={225}
-                        />
+                    {/* Description */}
+                    <Grid item>
+                        <Typography variant="body1" align="center" sx={{ mt: 2, mb: 1 }}>
+                            Description of your sponsor goes here.
+                        </Typography>
                     </Grid>
-                    <Grid item xs={12} sm={12} md={4} lg={4}>
-                        {/* Logo 3 */}
-                        
-                        <Image
-                            alt='KVH Logo'
-                            src='/assets/KVHLogo.png'
-                            width={200}
-                            height={225}
-                        />
+                    {/* Website Button */}
+                    <Grid item>
+                        <Button variant="contained" color="primary" href="https://eacnft.com/">
+                            Visit EAC Website
+                        </Button>
                     </Grid>
                 </Grid>
             </Container>

@@ -59,10 +59,10 @@ const About = () => {
                             backgroundSize: '15px 13px'
                         }}></Box>
                         <Image
-                            alt='injoi logo'
+                            alt='injoiLogo'
                             className='img1 '
                             layout='fill'
-                            src={`/assets/injoi.png`}/>
+                            src={`/assets/InJoi.png`}/>
                     </Box>
                 </Grid>
                 <Grid item xs={12} sm={12} md={7.5} lg={7}>
