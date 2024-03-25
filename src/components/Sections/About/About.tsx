@@ -4,7 +4,7 @@ import Typography from '@mui/material/Typography';
 import ReadMore from '../ReadMore/ReadMore';
 import { ColorModeContext } from '../../../../pages/_app';
 import { useContext } from 'react';
-import injoilogo from '../../../../public/assets/injoilogo.png'
+import InJoi from '/public/assets/injoi.png'
 const About = () => {
     const colorMode = useContext(ColorModeContext)
     return (
@@ -62,7 +62,7 @@ const About = () => {
                             alt='injoi logo'
                             className='img1 '
                             layout='fill'
-                            src={`/../../../../public/assets/injoilogo.png`}/>
+                            src={`/assets/injoi.png`}/>
                     </Box>
                 </Grid>
                 <Grid item xs={12} sm={12} md={7.5} lg={7}>

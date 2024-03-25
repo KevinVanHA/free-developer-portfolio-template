@@ -22,17 +22,16 @@ gsap.registerPlugin(ScrollTrigger);
 
 const perksArray = [{
     title:'Created by',
-    Icon:HandymanIcon,
-    text:'Created by the most visionary minds of the digital age, injoi exists to inspire and uplift, to ignite the flames of passion and curiosity in the hearts of all who encounter her.As you delve into the world of injoi, you will uncover a rich tapestry of stories and adventures waiting to be told. Each NFT, a window into her captivating universe, holds the key to unlocking new realms of imagination and possibility.',
+    text:'Created by the most visionary minds of the digital age, injoi exists to inspire and uplift, to ignite the flames of passion and curiosity in the hearts of all who encounter her.As you delve into the world of injoi, you will uncover a rich tapestry of stories and adventures waiting to be told. ',
 },
 {
     title : 'What else?',
-    text : 'But injoi is not just a work of art; she is a gateway to a world of endless opportunities. By minting her NFTs, you not only become a part of her story but also gain access to a treasure trove of token prizes and rewards.',
-    Icon :  HttpIcon,
+    text : 'Stand a chance to win big with injoi! With over 300,000,000 $EAC tokens up for grabs, including ownership shares of Evil Aliens Collective Inc., your journey with injoi holds exciting rewards. Total value $4,298 usd in prizes.',
+    
 }   ,
 {
     title : 'The Journey',
-    Icon : DevicesIcon,
+    
     text : 'As you journey alongside injoi, you will discover that the true magic lies not in the pixels that form her image, but in the connections forged and the dreams realized. So, why should you mint injoi? Because in her, you will find not just a collection of tokens, but a journey of self-discovery, inspiration, and boundless joy.'
 }
 ]
@@ -93,7 +92,7 @@ const Perks = () => {
                 }
             }}>
                 {perksArray.map(perk => {
-                    return <PerkCard  key={perk.title} title={perk.title} text={perk.text} Icon={perk.Icon}/>
+                    return <PerkCard  key={perk.title} title={perk.title} text={perk.text} />
                 })}
             </Box>
         </Box>

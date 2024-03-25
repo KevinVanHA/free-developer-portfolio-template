@@ -20,7 +20,7 @@ const Hero = () => {
     useEffect(() => {
         HeroSectionAnimation(q)
 
-    }, [])
+    }, [q])
 
     return (
         <Container
@@ -77,49 +77,50 @@ const Hero = () => {
                         </Typography>
 
                         <Box
-                            sx={{
-                            my: '2.5em',
-                            gap: '.8em',
-                            display: 'flex',
-                            flexWrap: 'wrap',
-                            alignItems: 'center'
-                        }}>
-                    <a href={`https://discord.com/channels/1131625905601650719/1220060290335379516/1221344390354571324`} rel="noreferrer" target='_blank' ></a>
-                            
-                            <Button
-                                className="  b1 explore offset "
-                                sx={{
-                                opacity: 0,
-                                borderRadius:0,
-                                padding : '.75em 2.5em',
-                                flex:{xs:1,sm:'inherit'},
-                            }}
-                              >
-                                Visit our Discord
-                            </Button>
-                        <a href={`https://opensea.io/`} rel="noreferrer" target='_blank' >
+    sx={{
+        my: '2.5em',
+        gap: '.8em',
+        display: 'flex',
+        flexWrap: 'wrap',
+        alignItems: 'center'
+    }}>
+    {/* Discord Button */}
+    <a href={`https://discord.com/channels/1131625905601650719/1220060290335379516/1221344390354571324`} rel="noreferrer" target='_blank'>
+        <Button
+            className="b1 explore offset"
+            sx={{
+                opacity: 0,
+                borderRadius:0,
+                padding : '.75em 2.5em',
+                flex:{xs:1,sm:'inherit'},
+            }}
+        >
+            Join for Whitelist
+        </Button>
+    </a>
 
-                            <Button
-                                className='b2'
-                                sx={{
-                                ...btnStyles,
-                                opacity: 0,
-                                height: 'max-content',
-                                padding: '1em 1.5em',
-                                width:{xs:'100%',sm:'auto'},
-                                ":hover": {
-                                    color: '#0092ff'
-                                }
-                            }}
-                                variant='text'>
-                                
-                                <Typography fontSize='14px'>
-                                    View Opensea
-                                </Typography>
-                            </Button>
-                            </a>
+    {/* Opensea Button */}
+    <a href={`https://opensea.io/`} rel="noreferrer" target='_blank'>
+        <Button
+            className='b2'
+            sx={{
+                ...btnStyles,
+                opacity: 0,
+                height: 'max-content',
+                padding: '1em 1.5em',
+                width:{xs:'100%',sm:'auto'},
+                ":hover": {
+                    color: '#0092ff'
+                }
+            }}
+            variant='text'>
+            <Typography fontSize='14px'>
+                View Opensea
+            </Typography>
+        </Button>
+    </a>
+</Box>
 
-                        </Box>
                     </Box>
                 </Grid>
                 <Grid
@@ -222,7 +223,7 @@ const Hero = () => {
                                 }}>
 {`"A free NFT mint, a digital muse, and a gateway to rewards."
 
-– injoi NFT`}
+– By EAC `}
                                 </Typography>
 
                             </Box>
