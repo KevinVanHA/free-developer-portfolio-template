@@ -84,7 +84,7 @@ const About = () => {
                             }
                         }}
                             fontWeight='600'>
-                            About Me, I'm injoi
+                            About Me, I&rsquo;m injoi
                         </Typography>
                         <Typography
                             variant='h2'
