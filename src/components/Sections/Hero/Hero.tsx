@@ -222,7 +222,7 @@ const Hero = () => {
                                 }}>
 {`"A free NFT mint, a digital muse, and a gateway to rewards."
 
-– Oliver Wendell Holmes`}
+– injoi NFT`}
                                 </Typography>
 
                             </Box>

@@ -21,7 +21,7 @@ const Home : NextPage = ({projectsArray, iconsArray} : any) => {
 
     }, [])
     return (
-        <Layout desc={`Vito Medlej, A lebanese professional software engineer in Beirut, Can develop all kinds of websites and web/mobile applications according to your needs`} title='Vito Medlej Fullstack Developer Personal Portfolio Website'>
+        <Layout desc={`Join us as we embark on this extraordinary journey together. Let's shape the future of NFTs and beyond. injoi.`} title='injoi,a free NFT mint, a digital muse, and a gateway to rewards'>
 
             <Box
                 sx={{
@@ -31,8 +31,6 @@ const Home : NextPage = ({projectsArray, iconsArray} : any) => {
 
                 <Hero/>
                 <Perks/>
-                <Experience iconsArray={iconsArray}/>
-                <Projects projectsArray={projectsArray}/>
                 <About/>
                 <CTA/>
 

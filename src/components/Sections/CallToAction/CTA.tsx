@@ -72,7 +72,7 @@ const CTA = () => {
                         }
                     }}
                         fontWeight='600'>
-                        What&apos;s holding you back? Send me a message!
+                        What&apos;s holding you back? Join our Discord!
                     </Typography>
                     <Box
                         sx={{
@@ -84,7 +84,7 @@ const CTA = () => {
 
                      
                         <Button
-                            onClick={()=>router.push('/contact')}
+                            onClick={()=>router.push('https://discord.com/channels/1131625905601650719/1220060290335379516/1221344390354571324')}
                             className='ctabtn'
                             sx={{
                             color: 'white',
@@ -98,7 +98,7 @@ const CTA = () => {
                             padding: '.5em 3.5em'
                         }}
                             variant='outlined'>
-                            Contact
+                            Get WL now
                         </Button>
                     </Box>
 

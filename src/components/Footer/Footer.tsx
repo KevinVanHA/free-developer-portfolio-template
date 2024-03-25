@@ -17,8 +17,8 @@ function Copyright() {
 
             <Typography variant='h1' fontSize='1em'>
                 {'Copyright © '}
-                <Link color="inherit" target='_blank'  rel="noreferrer" href="https://onbeirut.onrender.com">
-                    onbeirut.onrender.com
+                <Link color="inherit" target='_blank'  rel="noreferrer" href="https://injoi.xyz">
+                    injoi.xyz
                 </Link>{' '} {new Date().getFullYear()}
                 {'.'}
             </Typography>
@@ -65,9 +65,7 @@ function Footer() {
 
                         <Box sx={styles}>
                             <Typography variant='h3' fontSize='1em'>
-                                Hi, my name is Vito Medlej and I have created the OnBeirut Agency which aims to solve various issues small lebanese
-                                businesses face. You are free to use the website as a template for yourself as long as you
-                                give credit.
+                            Experience the thrill of being among the first to explore injoi! Secure your exclusive spot by joining the EAC Community Discord. Mint up to 50x injoi NFTs – our gift to you for being part of our journey.
                             </Typography>
                         </Box>
 
@@ -80,7 +78,7 @@ function Footer() {
                             className='FooterLink'
                             onClick={()=>{router.push('/'); gsap.to(window, {duration: .8, scrollTo: `#hero`})}}
                             >Home</Typography>
-                            <Link href='/contact'>Contact</Link>
+                            <Link href='https://discord.com/channels/1131625905601650719/1220060290335379516/1221344390354571324'>Contact</Link>
                          
                             <Typography 
                             className='FooterLink'
@@ -92,10 +90,9 @@ function Footer() {
                     <Grid item xs={12} sm={3} md={3}>
                         <Typography variant='h1' fontSize='1.4em' fontWeight='400'>Contact</Typography>
                         <Box className='link' sx={styles}>
-                            <a target='_blank' rel="noreferrer" href='https://github.com/VitoMedlej'>Github</a>
-                            <Typography variant='h1' fontSize='1em'>vito.medlej@gmail.com</Typography>
-                            <Typography variant='h1' fontSize='1em'>Lebanon/Beirut</Typography>
-                            <Typography variant='h1' fontSize='1em'>+961/81826445</Typography>
+                            <a target='_blank' rel="noreferrer" href='https://discord.com/channels/1131625905601650719/1220060290335379516/1221344390354571324'>Discord</a>
+                            <Typography variant='h1' fontSize='1em'>info@injoi.xyz</Typography>
+                            <Typography variant='h1' fontSize='1em'>injoi</Typography>
                         </Box>
                     </Grid>
                 </Grid>

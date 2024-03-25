@@ -4,6 +4,7 @@ import Typography from '@mui/material/Typography';
 import ReadMore from '../ReadMore/ReadMore';
 import { ColorModeContext } from '../../../../pages/_app';
 import { useContext } from 'react';
+import injoilogo from '../../../../public/assets/injoilogo.png'
 const About = () => {
     const colorMode = useContext(ColorModeContext)
     return (
@@ -58,10 +59,10 @@ const About = () => {
                             backgroundSize: '15px 13px'
                         }}></Box>
                         <Image
-                            alt='Personal Image'
+                            alt='injoi logo'
                             className='img1 '
                             layout='fill'
-                            src={`https://res.cloudinary.com/dwcu3wcol/image/upload/v1659776757/20211226_154523_-_Copy_hhy2kp.jpg`}/>
+                            src={`/../../../../public/assets/injoilogo.png`}/>
                     </Box>
                 </Grid>
                 <Grid item xs={12} sm={12} md={7.5} lg={7}>
@@ -83,7 +84,7 @@ const About = () => {
                             }
                         }}
                             fontWeight='600'>
-                            About Me, Im Vito Medlej
+                            About Me, I'm injoi
                         </Typography>
                         <Typography
                             variant='h2'
@@ -94,7 +95,8 @@ const About = () => {
                                 sm: '1em'
                             }
                         }}>
-                      A 20-year-old Lebanon-based software developer. I first started developing games using Unity3D, but soon realized I preferred web and mobile app development, and I&apos;ve been building and working on that for the past 3 years now.
+                      Unlock exclusive injoi BOOST role by owning 105+ injoi NFTs and become an esteemed member of the EAC Discord community. The Boost role earns you more $EAC. Plus, send 105x injoi NFTs to be burned and receive a generous bonus of 2,000,000 $EAC.
+
 
                         </Typography>
                     </Box>
@@ -108,13 +110,10 @@ const About = () => {
                             },
                             pb:'.5em'
                         }}>
-                      Being self-taught made me appreciate education; thus, I&apos;m studying Management Information Systems simultaneously. Business and technology are both my passions.
+                      Stand a chance to win big with injoi! With over 300,000,000 $EAC tokens up for grabs, including ownership shares of Evil Aliens Collective Inc., your journey with injoi holds exciting rewards. Total value $4,298 usd in prizes.
 
                         </Typography>
-                    <ReadMore>
-                    Aside from working hard, I tend to enjoy simple things like reading, petting cats, hitting the gym, and other things we humans do. If any of what I said seems interesting, then please do not hesitate to send me a message.
-                    </ReadMore>
-                </Grid>
+                    </Grid>
             </Grid>
 
         </Container>

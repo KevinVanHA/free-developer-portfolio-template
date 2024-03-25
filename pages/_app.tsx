@@ -15,7 +15,7 @@ export const ColorModeContext = createContext({
 
 function MyApp({Component, pageProps} : AppProps) {
     const [mode,
-        setMode] = useState < 'light' | 'dark' > ('dark');
+        setMode] = useState < 'light' | 'dark' > ('light');
     const getDesignTokens = ThemeHook(mode, setMode);
     const Theme = useMemo(() => createTheme(getDesignTokens(mode)), [mode]);
 

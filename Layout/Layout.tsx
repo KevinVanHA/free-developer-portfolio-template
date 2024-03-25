@@ -18,25 +18,25 @@ const Layout = ({navbarSx, title ,children ,desc } : ILayout) => {
 
     <>
     <Head >
-        <title>{title || "Vito Medlej Personal Portfolio | Lebanese Web Developer"}</title>
+        <title>{title || "injoy Holographic NFT"}</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <link rel="shortcut icon" href="https://res.cloudinary.com/dwcu3wcol/image/upload/v1657099811/log_nkmcys.jpg" />
+        <link rel="shortcut icon" href="../public/assets/favicon.png" />
   
    
     
-<meta name="description" content={`${desc || 'Vito Medlej personal portfolio, An expert in UI/UX and building complex websites and applications'}`} />
+<meta name="description" content={`${desc || 'injoi Holographic NFT'}`} />
 
 
-<meta property="og:title" content="Vito Medlej Personal Portfolio | Lebanese Web Developer" />
+<meta property="og:title" content="injoi Holographic NFT" />
 
 
-<meta property="og:url" content="https://elvito.netlify.app" />
+<meta property="og:url" content="https://injoi.xyz" />
 
 
-<meta property="og:description" content="Vito Medlej | Web Developer based in Lebanon. And this is my Portfolio and my blog "/>
+<meta property="og:description" content="injoi - a free NFT mint, a digital muse, and a gateway to rewards "/>
 
 
-<meta property="og:image" content="https://res.cloudinary.com/dwcu3wcol/image/upload/v1658929513/log-removebg-preview_fygpsd.png"/>
+<meta property="og:image" content="../public/assets/injoilogo.png"/>
 
 {/* <!-- Og Type -->
 <meta property="og:type" content="article" /> */}
