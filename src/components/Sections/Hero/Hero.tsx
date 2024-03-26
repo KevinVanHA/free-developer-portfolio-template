@@ -73,7 +73,7 @@ const Hero = () => {
                             maxWidth: '570px',
                             fontWeight: '300'
                         }}>
-                           born from the depths of cyberspace, where pixels dance with the rhythm of imagination and dreams take flight in the realm of virtual reality. With her ethereal beauty and enigmatic charm, injoi emerges as a beacon of light in a world shrouded in darkness. 
+                           Born from the depths of cyberspace, where pixels dance with the rhythm of imagination and dreams take flight in the realm of virtual reality. With her ethereal beauty and enigmatic charm, injoi emerges as a beacon of light in a world shrouded in darkness. 
                         </Typography>
 
                         <Box

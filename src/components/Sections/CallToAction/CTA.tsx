@@ -83,7 +83,23 @@ const CTA = () => {
                     }}>
 
                      
-                        <Button
+<Button
+                            onClick={()=>router.push('https://discord.com/channels/1131625905601650719/1220060290335379516/1221344390354571324')}
+                            className='ctabtn'
+                            sx={{
+                            color: 'white',
+                            opacity:0,
+                            border: '1px solid white',
+                            mt: '.5em',
+                            ':hover': {
+                                background: 'white',
+                                color: '#0092ff'
+                            },
+                            padding: '.5em 3.5em'
+                        }}
+                            variant='outlined'>
+                            Get WL now
+                        </Button><Button
                             onClick={()=>router.push('https://discord.com/channels/1131625905601650719/1220060290335379516/1221344390354571324')}
                             className='ctabtn'
                             sx={{
