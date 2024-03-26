@@ -61,12 +61,22 @@ const Navbar = ({toggleDrawer,navbarSx} : INavbar) => {
 
                 <Logo color={color} toggleDrawer={toggleDrawer} colorMode={colorMode}/>
                 <Button 
-                onClick={()=>router.push('/#')}
+                onClick={()=>router.push('/mint')}
                 sx={{mr:'1em',fontWeight:'500',':hover':{color:'#0092ff'},color:color}}>
                     {/* <Typography> */}
                     MINT
                     {/* </Typography> */}
                 </Button>
+                <Button 
+    onClick={() => router.push('/discord')} // Replace '/discord' with your Discord link
+    sx={{mr: '1em', fontWeight: '500', ':hover': {color: '#0092ff'}, color: color}}>
+    Discord
+</Button>
+<Button 
+    onClick={() => router.push('/opensea')} // Replace '/opensea' with your OpenSea link
+    sx={{mr: '1em', fontWeight: '500', ':hover': {color: '#0092ff'}, color: color}}>
+    OpenSea
+</Button>
                 
 
             </Container>

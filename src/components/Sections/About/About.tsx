@@ -1,10 +1,11 @@
-import { Container, Box, Grid } from '@mui/material';
+import { Container, Box, Grid, Button } from '@mui/material';
 import Image from 'next/image'
 import Typography from '@mui/material/Typography';
 import ReadMore from '../ReadMore/ReadMore';
 import { ColorModeContext } from '../../../../pages/_app';
 import { useContext } from 'react';
 import InJoi from '/public/assets/injoi.png'
+
 const About = () => {
     const colorMode = useContext(ColorModeContext)
     return (
@@ -84,7 +85,7 @@ const About = () => {
                             }
                         }}
                             fontWeight='600'>
-                            About Me, I&rsquo;m injoi
+                            About the creator
                         </Typography>
                         <Typography
                             variant='h2'
@@ -95,8 +96,8 @@ const About = () => {
                                 sm: '1em'
                             }
                         }}>
-                      Unlock exclusive injoi BOOST role by owning 105+ injoi NFTs and become an esteemed member of the EAC Discord community. The Boost role earns you more $EAC. Plus, send 105x injoi NFTs to be burned and receive a generous bonus of 2,000,000 $EAC.
-
+                      Kevin is a graphic designer from Belgium that specializes in UX Design. He&apos;s been interested in Blockchain and NFT&apos;s for over 4 years, even doing his masters&apos; thesis on the development of a NFT website! This project is the first 10k NFT project he has done!
+                      
 
                         </Typography>
                     </Box>
@@ -110,8 +111,26 @@ const About = () => {
                             },
                             pb:'.5em'
                         }}>
-                      Stand a chance to win big with injoi! With over 300,000,000 $EAC tokens up for grabs, including ownership shares of Evil Aliens Collective Inc., your journey with injoi holds exciting rewards. Total value $4,298 usd in prizes.
-
+                      After partnering up with EAC, this concept came to life, and it&apos;s sure to be the first of many collections being released! Trying out new technologies, new marketing techniques, and giving away a plethora of other prices, this collection isn&apos;t to be missed!
+                      <br />
+                      <br />
+                      <Button
+                            onClick={() => window.open('https://www.behance.net/KevinVH', '_blank')}
+                            className='ctabtn'
+                            sx={{
+                            color: 'blue',
+                            opacity:50,
+                            border: '1px solid white',
+                            mt: '.25em',
+                            ':hover': {
+                                background: 'white',
+                                color: '#0092ff'
+                            },
+                            padding: '.5em .5em'
+                        }}
+                            variant='outlined'>
+                            Lean more about Kevin
+                        </Button>
                         </Typography>
                     </Grid>
             </Grid>
