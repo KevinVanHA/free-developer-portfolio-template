@@ -68,12 +68,12 @@ const Navbar = ({toggleDrawer,navbarSx} : INavbar) => {
                     {/* </Typography> */}
                 </Button>
                 <Button 
-    onClick={() => window.open('https://discord.gg/hjSt7rPfRb')} // Replace '/discord' with your Discord link
+    onClick={() => window.open('https://discord.gg/hjSt7rPfRb')}
     sx={{mr: '1em', fontWeight: '500', ':hover': {color: '#0092ff'}, color: color}}>
     Discord
 </Button>
 <Button 
-    onClick={() => window.open('https://opensea.io/')} // Replace '/opensea' with your OpenSea link
+    onClick={() => window.open('https://opensea.io/')} 
     sx={{mr: '1em', fontWeight: '500', ':hover': {color: '#0092ff'}, color: color}}>
     OpenSea
 </Button>

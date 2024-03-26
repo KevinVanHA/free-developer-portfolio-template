@@ -221,9 +221,14 @@ const Hero = () => {
                                     fontSize: '.85em',
                                     padding: '1em'
                                 }}>
-{`"A free NFT mint, a digital muse, and a gateway to rewards."
-
-– By EAC `}
+{"A free NFT mint, a digital muse, and a gateway to rewards "}
+    
+    <span style={{ color: 'white' }}>
+        {" - By "}
+        <a href="https://eacnft.com/" target="_blank" rel="noopener noreferrer">
+            {"EAC"}
+        </a>
+    </span>
                                 </Typography>
 
                             </Box>
