@@ -74,23 +74,18 @@ function Footer() {
                         <Typography variant='h1' fontSize='1.4em' fontWeight='400'>Links</Typography>
 
                         <Box className='link' sx={styles}>
-                            <Typography 
-                            className='FooterLink'
-                            onClick={()=>{router.push('/'); gsap.to(window, {duration: .8, scrollTo: `#hero`})}}
-                            >Home</Typography>
-                            <Link href='https://discord.com/channels/1131625905601650719/1220060290335379516/1221344390354571324'>Contact</Link>
-                         
-                            <Typography 
-                            className='FooterLink'
-                            onClick={()=>{router.push('/'); gsap.to(window, {duration: .5, scrollTo: `#about`})}}
-                            >About</Typography>
+                            
+                            <Link href='http://localhost:3000/mint'>Mint</Link>
+                            <Link href='https://discord.com/invite/hjSt7rPfRb'>Discord</Link>
+                            <Link href='https://opensea.io/'>Opensea</Link>
+                            
                         </Box>
 
                     </Grid>
                     <Grid item xs={12} sm={3} md={3}>
                         <Typography variant='h1' fontSize='1.4em' fontWeight='400'>Contact</Typography>
                         <Box className='link' sx={styles}>
-                            <a target='_blank' rel="noreferrer" href='https://discord.com/channels/1131625905601650719/1220060290335379516/1221344390354571324'>Discord</a>
+                            <a target='_blank' rel="noreferrer" href='https://discord.com/invite/hjSt7rPfRb'>Discord</a>
                             <Typography variant='h1' fontSize='1em'>info@injoi.xyz</Typography>
                             <Typography variant='h1' fontSize='1em'>injoi</Typography>
                         </Box>
