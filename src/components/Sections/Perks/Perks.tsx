@@ -21,18 +21,18 @@ gsap.registerPlugin(ScrollTrigger);
 
 
 const perksArray = [{
-    title:'Created by',
-    text:'Created by the most visionary minds of the digital age, injoi exists to inspire and uplift, to ignite the flames of passion and curiosity in the hearts of all who encounter her.As you delve into the world of injoi, you will uncover a rich tapestry of stories and adventures waiting to be told. ',
+    title:'Created for',
+    text:'injoi exists to inspire and uplift, to ignite the flames of passion and curiosity in the hearts of all who encounter her.As you delve into the world of injoi, you will uncover a rich tapestry of stories and adventures waiting to be told. ',
 },
 {
     title : 'What else?',
-    text : 'Stand a chance to win big with injoi! With over 300,000,000 $EAC tokens up for grabs, including ownership shares of Evil Aliens Collective Inc., your journey with injoi holds exciting rewards. Total value $4,298 usd in prizes.',
+    text : 'Win big with injoi! With over 300,000,000 $EAC tokens up for grabs, including ownership shares of Evil Aliens Collective Inc., your journey with injoi holds exciting rewards.  Total value $4,298 usd in prizes.',
     
 }   ,
 {
     title : 'The Journey',
     
-    text : 'As you journey alongside injoi, you will discover that the true magic lies not in the pixels that form her image, but in the connections forged and the dreams realized. So, why should you mint injoi? Because in her, you will find not just a collection of tokens, but a journey of self-discovery, inspiration, and boundless joy.'
+    text : 'Why should you mint injoi? Because in her, you will find not just a collection of tokens, but a journey of self-discovery, inspiration, and boundless joy.'
 }
 ]
 const Perks = () => {
