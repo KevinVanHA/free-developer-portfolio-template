@@ -79,6 +79,47 @@ const Perks = () => {
             }}>
                  She is more than just a collection of lines and colors; she is the embodiment of hope, love, and boundless creativity.
             </Typography>
+            <br />
+            <br />
+            <Typography
+                className='h1 t25o0'
+                variant='h1'
+                sx={{
+             
+                fontSize: {
+                    xs: '2.2em',
+                    sm: '2.5em',
+                    md: '3em'
+                }
+            }}
+                fontWeight='600'>
+               Your chance to win!
+            </Typography>
+
+            <Typography
+                variant='h2'
+                className='secondary h2'
+                sx={{
+                pt: '1em',
+                transform: 'translateY(15px)',
+                opacity: 0,
+                maxWidth: '800px',
+                textAlign: 'left',
+                fontSize: {
+                    xs: '.8em',
+                    sm: '1em',
+                    lg: '1.5em'
+                }
+            }}>
+                A total of 210,000,000 $EAC <br /> <br />
+                <li>100 x  EAC .01 ownership</li>
+                <li>1 Animated x 10,000,000 $EAC</li>
+                <li>1000 x 50000 $EAC</li>
+                <li>500 x 100000 $EAC</li>
+                <li>400 x 250000 $EAC </li>
+
+
+            </Typography>
 
             <Box
                 sx={{
