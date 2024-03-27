@@ -111,7 +111,7 @@ const Perks = () => {
                     lg: '1.5em'
                 }
             }}>
-                A total of 210,000,000 $EAC <br /> <br />
+                A total of 210,000,000 $EAC / $4,298 USD to be won!  <br /> <br />
                 <li>100 x  EAC .01 ownership</li>
                 <li>1 Animated x 10,000,000 $EAC</li>
                 <li>1000 x 50000 $EAC</li>
