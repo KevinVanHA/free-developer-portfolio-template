@@ -111,7 +111,7 @@ const About = () => {
                             },
                             pb:'.5em'
                         }}>
-                      After partnering up with EAC, this concept came to life, and it&apos;s sure to be the first of many collections being released! Trying out new technologies, new marketing techniques, and giving away a plethora of other prices, this collection isn&apos;t to be missed!
+                      After partnering up with EAC, this concept came to life, and it&apos;s sure to be the first of many collections being released! Trying out new technologies, new marketing techniques, and giving away a plethora of other prizes, this collection isn&apos;t to be missed!
                       <br />
                       <br />
                       <Button
