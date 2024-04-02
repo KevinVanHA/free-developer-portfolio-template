@@ -65,7 +65,7 @@ function Footer() {
 
                         <Box sx={styles}>
                             <Typography variant='h3' fontSize='1em'>
-                            Experience the thrill of being among the first to explore injoi! Secure your exclusive spot by joining the EAC Community Discord. Our gift to you for being part of our journey.
+                            Experience the thrill of being among the first to explore injoi! Secure your exclusive spot by joining the EAC Community Discord. Mint up to 50x injoi NFTs – our gift to you for being part of our journey.
                             </Typography>
                         </Box>
 

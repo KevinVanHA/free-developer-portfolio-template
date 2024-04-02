@@ -26,7 +26,7 @@ const perksArray = [{
 },
 {
     title : 'What else?',
-    text : 'Win big with injoi! With over 210,000,000 $EAC tokens up for grabs, including ownership shares of Evil Aliens Collective Inc., your journey with injoi holds exciting rewards.  Total value $4,298 usd in prizes.',
+    text : 'Win big with injoi! With over 300,000,000 $EAC tokens up for grabs, including ownership shares of Evil Aliens Collective Inc., your journey with injoi holds exciting rewards.  Total value $4,298 usd in prizes.',
     
 }   ,
 {
