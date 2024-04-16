@@ -2,7 +2,7 @@ import {Box} from '@mui/material'
 import CustomLink from '../Mui/CustomLink'
 import {useRouter} from 'next/router';
 import gsap from 'gsap';
-import injoilogo from '/assets/injoilogo.png'
+import Image from 'next/image';
 
 const Logo = ({toggleDrawer, colorMode, color} : any) => {
     const router = useRouter()
@@ -26,11 +26,13 @@ const Logo = ({toggleDrawer, colorMode, color} : any) => {
             alignItems: 'center'
         }}>
 
-            <img
+            <Image
                 className={`${colorMode.mode === ''
                 ? 'logoImg '
                 : ''}small`}
-                src="/assets/injoilogo.png"
+                src="/assets/BPLogo.png"
+                width={96}
+                height={58}
                 alt=""/>
             <CustomLink color={color} fontWeight='600' text=' ' href='/'/>
         </Box>
